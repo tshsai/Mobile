@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="main">
+        <nav>
+            <div class="logo">
+                <img src="./images/logo.png" alt="websitelogo">
+            </div>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">services</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">EMI Caluculation</a></li>
+                    <li><a href="#">Cart</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        
+        <div class="products">
+            <div class="cart">
+                cart: <p id="cart">0</p>
+            </div>
+            <div class="product">
+                <img src="./images/iphone13.jpg" alt="">
+                <div class="cart_value">
+                    
+                    <button id="add_pro1">add</button>
+                    <p id="pro1">0</p>
+                    <button id="delete_pro1">delete</button>
+                </div>
+            </div>
+            <div class="product">
+                <img src="./images/iphone12.jpg" alt="">
+                <div class="cart_value">
+                    <button id="add_pro2">add</button>
+                    <p id="pro2">0</p>
+                    <button id="delete_pro2">delete</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./cart.js"></script>
+</body>
+</html>
