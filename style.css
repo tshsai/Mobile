@@ -164,3 +164,39 @@ color: white;
     border: none;
     border-radius: 10px;
 }
+.cart_value{
+    display: flex;
+    
+    margin: 10px;
+}
+.cart_value button{
+    height: 50px;
+    width: 60px;
+    border: 1px solid;
+}
+
+.subtract{
+    background-color: red;
+    color: white;
+}
+.add{
+    background-color: green;
+    color: white;
+}
+.add:hover{
+    background-color: rgb(17, 222, 17);
+    
+}
+.subtract:hover{
+    background-color: rgb(220, 81, 81);
+}
+.cart{
+    
+    text-align: center;
+}
+.price{
+    margin: 10px;
+}
+#phone_name{
+    color: rgb(47, 37, 37);
+}

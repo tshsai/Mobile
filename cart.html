@@ -15,11 +15,11 @@
             </div>
             <div class="nav-links">
                 <ul>
-                    <li><a href="#">Home</a></li>
+                    <li><a href="./index.html">Home</a></li>
                     <li><a href="#">services</a></li>
                     <li><a href="#">About</a></li>
-                    <li><a href="#">EMI Caluculation</a></li>
-                    <li><a href="#">Cart</a></li>
+                    <li><a href="./emi.html">EMI Caluculation</a></li>
+                    <li><a href="./cart.html">Cart</a></li>
                     <li><a href="#">Contact</a></li>
                 </ul>
             </div>
@@ -27,24 +27,36 @@
         
         <div class="products">
             <div class="cart">
-                cart: <p id="cart">0</p>
+                <h1>Cart</h1>
+                <h1 id="cart">0</h1>
+                <h1>Amount</h1>
+                <h1 id="total">0</h1>
             </div>
             <div class="product">
                 <img src="./images/iphone13.jpg" alt="">
-                <div class="cart_value">
-                    
-                    <button id="add_pro1">add</button>
-                    <p id="pro1">0</p>
-                    <button id="delete_pro1">delete</button>
+                <div class="price">
+                    <h1 id="phone_name">Iphone 13</h1>
+                    <h3>1,30,000</h3>
+                    <div class="cart_value">
+                        <button id="add_pro1" class="add">add</button>
+                        <h2 id="pro1">0</h2>
+                        <button id="delete_pro1" class="subtract">delete</button>
+                    </div>
                 </div>
+                
             </div>
             <div class="product">
                 <img src="./images/iphone12.jpg" alt="">
-                <div class="cart_value">
-                    <button id="add_pro2">add</button>
-                    <p id="pro2">0</p>
-                    <button id="delete_pro2">delete</button>
+                <div class="price">
+                    <h1 id="phone_name">Iphone 12</h1>
+                    <h3>1,00,000</h3>
+                    <div class="cart_value">
+                        <button id="add_pro2" class="add">add</button>
+                        <h2 id="pro2">0</h2>
+                        <button id="delete_pro2" class="subtract">delete</button>
+                    </div>
                 </div>
+                
             </div>
         </div>
     </div>
